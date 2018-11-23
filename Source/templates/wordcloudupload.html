@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>
+            Sentiment Analysis Demo
+        </title>
+    </head>
+
+   <body bgcolor="#dddddd">
+      <h2><p align="center">This Page is Just to Generate Word Cloud based on text file uploaded</p></h2>
+      <hr />
+      <h3><p>Enter Directory path where the vtt transcript files were kept:</p></h3>
+      <br />
+      
+      <form action = "/genWordCloud" method="POST" enctype = "multipart/form-data">
+          <p>Enter Path of Directory for which  word cloud has to be generated:</p>
+          <p><input type="text" name="path" >
+         <p><input type = "submit" value = "Generate Word Cloud" /></p>
+      </form>
+   </body>
+	
+</html>

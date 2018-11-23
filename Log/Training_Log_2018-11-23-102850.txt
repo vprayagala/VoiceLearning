@@ -1,0 +1,8 @@
+2018-11-23 10:28:50,310 - Training_Log - INFO - Start of Program - Logger has been created
+2018-11-23 10:28:50,311 - Training_Log - INFO - Current SystemPath:C:\Users\vprayagala2\AnacondaProjects\VoiceLearning\Source
+2018-11-23 10:28:52,333 - Training_Log - INFO - Loading data...
+2018-11-23 10:29:58,694 - Training_Log - INFO - Start of Program - Logger has been created
+2018-11-23 10:29:58,695 - Training_Log - INFO - Current SystemPath:C:\Users\vprayagala2\AnacondaProjects\VoiceLearning\Source
+2018-11-23 10:30:02,408 - Training_Log - INFO - Loading data...
+2018-11-23 10:30:15,481 - Training_Log - INFO - 25000 train sequences
+2018-11-23 10:30:15,482 - Training_Log - INFO - 25000 test sequences

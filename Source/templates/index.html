@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Sentiment Analysis Demo
+        </title>
+      
+      <script type="text/javascript" language="javascript">
+$(':checkbox.option').click(function() {
+    this.checked && $(this).siblings('input[name="' + this.name + '"]:checked.' + this.className).prop('checked', false);
+});           
+      </script>
+    </head>
+    
+   <body bgcolor="#dddddd">
+      <h2><p align="center">This Page is Just to Demonstarte Sentiment Analysis</p></h2>
+      <hr />
+      <h3>
+      <p>Upload an audio file (only WAV file format audio) or enter text to get the sentiment score.
+      Audio will be converted to text using cloud speechAPI and then bi-directional
+      LSTM model is used to determine the sentiment score. Bi-directional LSTM is trained
+      using the IMDB data source available over web</p>
+      </h3>
+      <br />
+      
+      <form action = "/action" method="POST">
+        <p><div>
+             Select an option:
+             <br />
+             <p><input id="audio" name="chkselection" type = "radio" value="audio" class="option" />Derive Sentiment from an Audio File </p>
+             <p><input id="text" name="chkselection" type = "radio"  value="text" class="option" />Derive Sentiment From Text </p>
+             <p><input id="word" name="chkselection" type = "radio"  value="word" class="option" />Generate Word Cloud for a Text File </p>
+             <p><input type = "submit" value = "submit" /></p>
+        </div></p>
+      </form>
+   </body>
+</html>

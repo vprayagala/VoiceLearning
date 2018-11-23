@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+            Sentiment Analysis Demo
+        </title>
+    </head>
+
+   <body bgcolor="#dddddd">
+      <h2><p align="center">This Page is Just to Demonstarte Sentiment Analysis</p></h2>
+      <hr />
+      <h3><p>Analysis Details.</p></h3>
+      <br />
+   
+      <table border = 1>
+         {% for key, value in result.items() %}
+         
+            <tr>
+               <th> {{ key }} </th>
+               <td> {{ value }} </td>
+            </tr>
+            
+         {% endfor %}
+      </table>
+      
+   </body>
+</html>
