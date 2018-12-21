@@ -11,5 +11,7 @@ This complete project can be setup to run in your local by following below steps
     6) Setup Spacy using, python3 -m spacy download en
     7) Setup flask and run the server.py file to test the services as API
     8) Application.py file can be used to check from UI, but this has not been modified for topic modeling predictions
+    9) Build Model script has not been exposed as it contains some sensitive information. 
+    You can build your own module to build a topic modeling and clustering data
     
   
