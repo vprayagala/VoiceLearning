@@ -8,7 +8,7 @@ Application:
     DataSource:
         In_Cloud            :   'Local'         #Possible Data Source Locations, Local or any cloud location - 'Azure','AWS','Google'
         In_Dir              :   'Data'           #Directory path for files, specify absolute path for local file and directory path for blobs like 'Data/File1/'
-        Azure_Container     :   'vl-container'
+        Azure_Container     :   'XXX'
         Out_Cloud           :   'Local'         #Possible Data Source Locations, Local or any cloud location - 'Azure','AWS','Google'
         Out_Dir             :   'Outputs'           #Directory path for output
         Model_Dir           :   'Outputs'           #Saved Models directory       
@@ -19,14 +19,14 @@ Application:
         batch_size          :   128
         epochs              :   10
     Speech_Subscription:
-        YOUR_API_KEY        :   'e2626181f6654568a7f0b17871a0c413'
+        YOUR_API_KEY        :   'XXXXXXX'
         REGION              :   'East US'           # westus, eastasia, northeurope 
         MODE                :   'interactive'
         LANG                :   'en-US'
         FORMAT              :   'simple'
     Cloud_Storage:
-        Storage_Account     :   'vlstorageaccount'                                                                              #Container Name
-        Storage_Key         :   'J5lGvHGO+G4SJqJ4SuWyBosPuDJNrhsBmNUCrbeqDZT+D0MFzzKP4huBZmfv7V9wMvAVBhT4JYbO2SSV5GZe/Q=='
+        Storage_Account     :   'XXXXXX'                                                                              #Container Name
+        Storage_Key         :   'XxXXXXXX'
     Model:
         LSTM_model_weight   :   'imdb_bidirectional_lstm.hdf5'
         LSTM_model_json     :   'imdb_bidirectional_lstm.json'
