@@ -1,0 +1,76 @@
+2019-03-07 16:46:37,849 - Application_Log - INFO - Start of Program - Logger has been created
+2019-03-07 16:47:14,596 - Application_Log - INFO - Current SystemPath:C:\Users\vprayagala2\.ipython
+2019-03-07 16:49:42,284 - Application_Log - INFO - Reading File:C:\Users\vprayagala2\AnacondaProjects\VoiceLearning\Data\NPS data 2015-19\Client Feedback_20190219_002308 v02 2017-18.xlsx
+2019-03-07 16:49:43,718 - Application_Log - INFO - Reading File:C:\Users\vprayagala2\AnacondaProjects\VoiceLearning\Data\NPS data 2015-19\Client Feedback_20190228_003156 2018-19 v01.xlsx
+2019-03-07 16:49:45,172 - Application_Log - INFO - Reading File:C:\Users\vprayagala2\AnacondaProjects\VoiceLearning\Data\NPS data 2015-19\Client Feedback_20190301_063423 2016-17.xlsx
+2019-03-07 16:49:45,609 - Application_Log - INFO - Reading File:C:\Users\vprayagala2\AnacondaProjects\VoiceLearning\Data\NPS data 2015-19\Client Feedback_20190301_064610 2015-16.xlsx
+2019-03-07 16:49:46,070 - Application_Log - INFO - Data Shape:(6272, 82)
+2019-03-07 16:49:46,073 - Application_Log - INFO - Data Types:Account Form Date                                                                                                           object
+Account Id                                                                                                                 float64
+Account Name                                                                                                                object
+Account Summary                                                                                                             object
+Analytics                                                                                                                  float64
+Applications Services                                                                                                      float64
+Ask Now Question #1                                                                                                         object
+Business Process Services                                                                                                  float64
+Category                                                                                                                    object
+Client Name                                                                                                                 object
+Cloud and Platform Services                                                                                                float64
+Considering all of your experiences with us, how likely are you to continue doing business with DXC                        float64
+Consulting                                                                                                                 float64
+Contact Type                                                                                                                object
+Country                                                                                                                     object
+Customer Effort Comment                                                                                                     object
+Customer Effort Sentiment                                                                                                  float64
+DXC Interview Date                                                                                                         float64
+DXC brings new ideas and concepts applicable to our business                                                               float64
+DXC has earned our trust                                                                                                   float64
+DXC has the skills required to meet our business needs                                                                     float64
+DXC has the solutions to help our business thrive                                                                          float64
+DXC helps us transform our business                                                                                        float64
+DXC manages our relationship effectively                                                                                   float64
+DXC meets our agreed upon delivery dates                                                                                   float64
+DXC proactively takes action to prevent issues from occurring                                                              float64
+Delivery Category                                                                                                           object
+Enterprise and Cloud Apps.                                                                                                 float64
+Feedback Type                                                                                                               object
+Focus Areas                                                                                                                 object
+                                                                                                                         ...      
+Relationship Comment                                                                                                        object
+Relationship Sentiment                                                                                                     float64
+Responsedate                                                                                                        datetime64[ns]
+Responsiveness Comment                                                                                                      object
+Responsiveness Sentiment                                                                                                   float64
+Security                                                                                                                   float64
+Service Delivery Comments                                                                                                   object
+Service Satisfaction Comment                                                                                                object
+Service satisfaction Sentiment                                                                                             float64
+Skills/Knowledge Comment                                                                                                    object
+Skills/Knowledge Sentiment                                                                                                 float64
+Sub Region 1                                                                                                                object
+Sub Region 2                                                                                                                object
+Sub Region 3                                                                                                                object
+Survey Month                                                                                                                object
+Survey Nomination Id                                                                                                        object
+Survey status                                                                                                               object
+Thrive Comment                                                                                                              object
+Thrive Sentiment                                                                                                           float64
+Top Parent ST Account                                                                                                       object
+Transcript                                                                                                                  object
+Transform Comment                                                                                                           object
+Transform Sentiment                                                                                                        float64
+Trust Comment                                                                                                               object
+Trust Sentiment                                                                                                            float64
+What can we do to improve?                                                                                                  object
+What is the one thing that DXC can do to bring in more value                                                                object
+Workplace and Mobility                                                                                                     float64
+You indicated you are  unlikely to recommend DXC to a friend or a colleague. What can we do to improve?                     object
+You indicated you are likely to recommend DXC to a friend or a colleague. What factors contributed most to this?            object
+Length: 82, dtype: object
+2019-03-07 16:49:49,098 - Application_Log - INFO - Print the nulls or missing values:x    3920
+y    5713
+z    4015
+dtype: int64
+2019-03-07 16:54:24,783 - Application_Log - INFO - Saving Word Cloud as C:\Users\vprayagala2\AnacondaProjects\VoiceLearning\Outputs\wordcloud0.png
+2019-03-07 16:54:33,318 - Application_Log - INFO - Saving Word Cloud as C:\Users\vprayagala2\AnacondaProjects\VoiceLearning\Outputs\wordcloud1.png
+2019-03-07 16:54:48,497 - Application_Log - INFO - Saving Word Cloud as C:\Users\vprayagala2\AnacondaProjects\VoiceLearning\Outputs\wordcloud2.png

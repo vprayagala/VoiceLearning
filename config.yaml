@@ -6,12 +6,12 @@ Application:
         Log_Name            :   'Application_Log'
         Log_Level           :   'DEBUG'         
     DataSource:
-        In_Cloud            :   'Azure'         #Possible Data Source Locations, Local or any cloud location - 'Azure','AWS','Google'
+        In_Cloud            :   'Local'         #Possible Data Source Locations, Local or any cloud location - 'Azure','AWS','Google'
         In_Dir              :   'Data'           #Directory path for files, specify absolute path for local file and directory path for blobs like 'Data/File1/'
-        Azure_Container     :   'XXXX'
+        Azure_Container     :   'vl-container'
         Out_Cloud           :   'Local'         #Possible Data Source Locations, Local or any cloud location - 'Azure','AWS','Google'
-        Out_Dir             :   'outputs'           #Directory path for output
-        Model_Dir           :   'outputs'           #Saved Models directory       
+        Out_Dir             :   'Outputs'           #Directory path for output
+        Model_Dir           :   'Outputs'           #Saved Models directory       
     LSTM:
         max_features        :   100000
         maxlen              :   200
@@ -19,15 +19,14 @@ Application:
         batch_size          :   128
         epochs              :   10
     Speech_Subscription:
-        YOUR_API_KEY        :   'XXXX'
-        REGION              :   'XXXX'           # westus, eastasia, northeurope 
+        YOUR_API_KEY        :   'e2626181f6654568a7f0b17871a0c413'
+        REGION              :   'East US'           # westus, eastasia, northeurope 
         MODE                :   'interactive'
         LANG                :   'en-US'
         FORMAT              :   'simple'
     Cloud_Storage:
-        Storage_Account     :   'XXX'                                                                              #Storage Container Name
-        Storage_Key         :   'XXXX'      # Key to access blobs in the storage account
+        Storage_Account     :   'vlstorageaccount'                                                                              #Container Name
+        Storage_Key         :   'J5lGvHGO+G4SJqJ4SuWyBosPuDJNrhsBmNUCrbeqDZT+D0MFzzKP4huBZmfv7V9wMvAVBhT4JYbO2SSV5GZe/Q=='
     Model:
         LSTM_model_weight   :   'imdb_bidirectional_lstm.hdf5'
         LSTM_model_json     :   'imdb_bidirectional_lstm.json'
-        LDA_model           :   'LDA_Topic_Model.pkl'
