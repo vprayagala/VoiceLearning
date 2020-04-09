@@ -206,7 +206,7 @@ PySocks==1.6.8
 pytest==3.8.2
 python-dateutil==2.7.3
 python-docx==0.8.10
-python-engineio==2.2.0
+python-engineio==3.8.2.post1
 python-socketio==2.0.0
 pytz==2018.5
 pywin32==223
