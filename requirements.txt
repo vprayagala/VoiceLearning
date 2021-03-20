@@ -138,7 +138,7 @@ isodate==0.6.0
 isort==4.3.4
 itsdangerous==0.24
 jedi==0.12.1
-Jinja2==2.10
+Jinja2==2.11.3
 jmespath==0.9.3
 joblib==0.11
 jsonify==0.5
