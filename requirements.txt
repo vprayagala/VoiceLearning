@@ -117,7 +117,7 @@ entrypoints==0.2.3
 ffmpeg==1.4
 ffprobe==0.5
 Flask==1.0.2
-Flask-Cors==3.0.6
+Flask-Cors==3.0.9
 Flask-Login==0.4.1
 Flask-SocketIO==3.0.1
 Flask-WTF==0.14.2
