@@ -209,7 +209,7 @@ python-docx==0.8.10
 python-engineio==2.2.0
 python-socketio==2.0.0
 pytz==2018.5
-pywin32==223
+pywin32==301
 pywin32-ctypes==0.2.0
 pywinpty==0.5.4
 PyYAML==3.13
